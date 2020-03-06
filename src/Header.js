@@ -1,19 +1,17 @@
 import React from "react";
-import './assets/css/style.css';
-import './assets/css/lightbox.css';
 
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="logo">
+    <div class="header">
+      <div class="logo">
         <a href="http://all-free-download.com/free-website-templates/">
           <img src="assets/images/logo.gif" alt="" border="0" />
         </a>
       </div>
       <div id="menu">
         <ul>
-          <li className="selected">
+          <li class="selected">
             <a href="http://all-free-download.com/free-website-templates/">
               home
             </a>
