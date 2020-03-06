@@ -1,6 +1,6 @@
 import React from "react";
-import '../public/assets/css/style.css';
-import '../public/assets/css/lightbox.css';
+import './assets/css/style.css';
+import './assets/css/lightbox.css';
 
 
 const Left_Content = () => {
