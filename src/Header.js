@@ -1,17 +1,18 @@
 import React from "react";
+import './style.css';
 
 
 const Header = () => {
   return (
-    <div class="header">
-      <div class="logo">
+    <div className="header">
+      <div className="logo">
         <a href="http://all-free-download.com/free-website-templates/">
           <img src="assets/images/logo.gif" alt="" border="0" />
         </a>
       </div>
       <div id="menu">
         <ul>
-          <li class="selected">
+          <li className="selected">
             <a href="http://all-free-download.com/free-website-templates/">
               home
             </a>

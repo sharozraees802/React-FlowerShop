@@ -1,14 +1,15 @@
 import React from "react";
 import Left_Content from "./Left_Content";
 import Right_Content from "./Right_Content";
+import './style.css';
 
 
 const Content = () => {
   return (
-    <div class="center_content">
+    <div className="center_content">
       <Left_Content/>
       <Right_Content/>
-      <div class="clear">
+      <div className="clear">
         
       </div>
     </div>
